@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+.main-container{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.mostrar-campos{
+   margin-top: 5px;
+   
+}
+
+.tarjeta{
+    color: #fff;
+    background-color: #868c91;
+    border-color: #5b6369;
+    border: 7px;
+}

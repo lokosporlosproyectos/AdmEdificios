@@ -1,0 +1,42 @@
+
+<div class="btn-group" role="group">
+    <button type="button" class="btn btn-secondary" (click)="flag='Tecnico'">Tecnicos</button>
+    <button type="button" class="btn btn-secondary" (click)="flag='Edificios'">Edificios</button>    
+    <button type="button" class="btn btn-secondary" (click)="flag='Empresas'">Empresas</button>
+</div>
+<div class="mostrar-campos ">
+        
+    <div [ngSwitch]="flag">
+
+        <div *ngSwitchCase="'Tecnico'">
+            
+            <app-tecnicos>
+
+            </app-tecnicos>
+            
+        </div>
+
+        <div *ngSwitchCase="'Tecnico'">
+
+            <div class="card-columns">
+
+              
+
+            </div>
+
+        </div>
+
+        <div *ngSwitchCase="'Tecnico'">
+
+            <div class="card-columns">
+
+               
+
+            </div>
+
+        </div>
+
+        <div *ngSwitchDefault></div>
+    </div>
+
+</div>
